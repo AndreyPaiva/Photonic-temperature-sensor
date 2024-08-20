@@ -3,9 +3,9 @@ Ansys Lumerical 2022 R1.3 FDTD Solver Version 8.27.3016 (Windows 64bit)
  expires (month/day/year): 8/20/2024
 using config file: Ansys Licensing set with ANSYSLMD_LICENSE_FILE
 license host: 1055@10.75.13.24
-current time: ter ago 20 18:20:52 2024
+current time: ter ago 20 18:31:19 2024
 Running on host: DESKTOP-P6US4U1
-host available memory (GB): 59.736691
+host available memory (GB): 59.465011
 All processes are communicating and ready to proceed to simulation...
 Running fsp file: C:\Program Files\Lumerical\v221\bin\fdtd-engine-msmpi.exe -t 1 -remote C:/Users/PC/Documents/Photonics/Photonic-temperature-sensor/temp_sensor.fsp
 Starting meshing
@@ -22,7 +22,7 @@ Starting meshing
 Simulation size in gridpoints: 1 x 98 x 41
 Refined 0 mesh cells (0%)
 Completed meshing!
-Meshing complete in 0.015625 seconds of CPU time
+Meshing complete in 0 seconds of CPU time
 Starting meshing
 Simulation size in gridpoints: 1 x 98 x 41
 Refined 0 mesh cells (0%)
@@ -68,28 +68,28 @@ Nx is a duplicate key.
 Ny is a duplicate key.
 Nz is a duplicate key.
 number of processors is 24
-processors are distributed as: 6x4x1
+processors are distributed as: 4x6x1
 Running 3D Simulation
 Starting meshing
-Simulation size in gridpoints: 72 x 108 x 55
+Simulation size in gridpoints: 108 x 78 x 55
 Refined 0 mesh cells (0%)
 Completed meshing!
-Meshing complete in 0.25 seconds of CPU time
+Meshing complete in 0.28125 seconds of CPU time
 0 0
 Starting meshing
-Simulation size in gridpoints: 72 x 108 x 55
+Simulation size in gridpoints: 108 x 78 x 55
 Refined 0 mesh cells (0%)
 Completed meshing!
-Meshing complete in 0.25 seconds of CPU time
+Meshing complete in 0.265625 seconds of CPU time
 0 0
 Starting meshing
-Simulation size in gridpoints: 72 x 108 x 55
+Simulation size in gridpoints: 108 x 78 x 55
 Refined 0 mesh cells (0%)
 Completed meshing!
-Meshing complete in 0.25 seconds of CPU time
+Meshing complete in 0.265625 seconds of CPU time
 0 0
 finished material properties
-Meshing Time: 0.54107 seconds, Init Electrical Material Time: 0.0256549 seconds, Init Magnetic Material Time: 0.0006007
+Meshing Time: 0.584627 seconds, Init Electrical Material Time: 0.0267918 seconds, Init Magnetic Material Time: 0.0006569
 Using selected optimization level: 2
 Selecting 3d kernel for splitFieldDirection=0 and optLevel=2
 -----------------------------------------
@@ -113,5 +113,5 @@ Adding 3D movie monitor
 Finished initialization of 3D Simulation
 -----------------------------------------
 All processes are communicating and ready to proceed to simulation...
-Starting 100543 total iterations
-0.0477408% complete. Max time remaining: 40 mins, 20 secs. Auto Shutoff: 1
+Starting 100555 total iterations
+0.0477353% complete. Max time remaining: 40 mins, 39 secs. Auto Shutoff: 1
