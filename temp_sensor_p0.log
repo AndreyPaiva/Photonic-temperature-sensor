@@ -3,38 +3,38 @@ Ansys Lumerical 2022 R1.3 FDTD Solver Version 8.27.3016 (Windows 64bit)
  expires (month/day/year): 8/20/2024
 using config file: Ansys Licensing set with ANSYSLMD_LICENSE_FILE
 license host: 1055@10.75.13.24
-current time: ter ago 20 10:09:04 2024
+current time: ter ago 20 18:20:52 2024
 Running on host: DESKTOP-P6US4U1
-host available memory (GB): 64.275112
+host available memory (GB): 59.736691
 All processes are communicating and ready to proceed to simulation...
 Running fsp file: C:\Program Files\Lumerical\v221\bin\fdtd-engine-msmpi.exe -t 1 -remote C:/Users/PC/Documents/Photonics/Photonic-temperature-sensor/temp_sensor.fsp
 Starting meshing
-Simulation size in gridpoints: 1 x 152 x 59
+Simulation size in gridpoints: 1 x 98 x 41
 Refined 0 mesh cells (0%)
 Completed meshing!
 Meshing complete in 0 seconds of CPU time
 Starting meshing
-Simulation size in gridpoints: 1 x 152 x 59
+Simulation size in gridpoints: 1 x 98 x 41
+Refined 0 mesh cells (0%)
+Completed meshing!
+Meshing complete in 0 seconds of CPU time
+Starting meshing
+Simulation size in gridpoints: 1 x 98 x 41
 Refined 0 mesh cells (0%)
 Completed meshing!
 Meshing complete in 0.015625 seconds of CPU time
 Starting meshing
-Simulation size in gridpoints: 1 x 152 x 59
+Simulation size in gridpoints: 1 x 98 x 41
 Refined 0 mesh cells (0%)
 Completed meshing!
 Meshing complete in 0 seconds of CPU time
 Starting meshing
-Simulation size in gridpoints: 1 x 152 x 59
+Simulation size in gridpoints: 1 x 98 x 41
 Refined 0 mesh cells (0%)
 Completed meshing!
 Meshing complete in 0 seconds of CPU time
 Starting meshing
-Simulation size in gridpoints: 1 x 152 x 59
-Refined 0 mesh cells (0%)
-Completed meshing!
-Meshing complete in 0.015625 seconds of CPU time
-Starting meshing
-Simulation size in gridpoints: 1 x 152 x 59
+Simulation size in gridpoints: 1 x 98 x 41
 Refined 0 mesh cells (0%)
 Completed meshing!
 Meshing complete in 0 seconds of CPU time
@@ -46,17 +46,17 @@ Nx is a duplicate key.
 Ny is a duplicate key.
 Nz is a duplicate key.
 Starting meshing
-Simulation size in gridpoints: 1 x 152 x 59
+Simulation size in gridpoints: 1 x 98 x 41
 Refined 0 mesh cells (0%)
 Completed meshing!
 Meshing complete in 0 seconds of CPU time
 Starting meshing
-Simulation size in gridpoints: 1 x 152 x 59
+Simulation size in gridpoints: 1 x 98 x 41
 Refined 0 mesh cells (0%)
 Completed meshing!
 Meshing complete in 0 seconds of CPU time
 Starting meshing
-Simulation size in gridpoints: 1 x 152 x 59
+Simulation size in gridpoints: 1 x 98 x 41
 Refined 0 mesh cells (0%)
 Completed meshing!
 Meshing complete in 0 seconds of CPU time
@@ -71,25 +71,25 @@ number of processors is 24
 processors are distributed as: 6x4x1
 Running 3D Simulation
 Starting meshing
-Simulation size in gridpoints: 112 x 167 x 73
+Simulation size in gridpoints: 72 x 108 x 55
 Refined 0 mesh cells (0%)
 Completed meshing!
-Meshing complete in 0.6875 seconds of CPU time
+Meshing complete in 0.25 seconds of CPU time
 0 0
 Starting meshing
-Simulation size in gridpoints: 112 x 167 x 73
+Simulation size in gridpoints: 72 x 108 x 55
 Refined 0 mesh cells (0%)
 Completed meshing!
-Meshing complete in 0.65625 seconds of CPU time
+Meshing complete in 0.25 seconds of CPU time
 0 0
 Starting meshing
-Simulation size in gridpoints: 112 x 167 x 73
+Simulation size in gridpoints: 72 x 108 x 55
 Refined 0 mesh cells (0%)
 Completed meshing!
-Meshing complete in 0.671875 seconds of CPU time
+Meshing complete in 0.25 seconds of CPU time
 0 0
 finished material properties
-Meshing Time: 1.4088 seconds, Init Electrical Material Time: 0.076429 seconds, Init Magnetic Material Time: 0.001983
+Meshing Time: 0.54107 seconds, Init Electrical Material Time: 0.0256549 seconds, Init Magnetic Material Time: 0.0006007
 Using selected optimization level: 2
 Selecting 3d kernel for splitFieldDirection=0 and optLevel=2
 -----------------------------------------
@@ -109,13 +109,9 @@ Adding analysis monitor
 Adding 3D DFT monitor
 Adding 3D DFT monitor
 Adding 3D DFT monitor
+Adding 3D movie monitor
 Finished initialization of 3D Simulation
 -----------------------------------------
 All processes are communicating and ready to proceed to simulation...
-Starting 160597 total iterations
-0.0199257% complete. Max time remaining: 2 hrs, 53 mins, 44 secs. Auto Shutoff: 1
-1.02617% complete. Max time remaining: 2 hrs, 50 mins, 42 secs. Auto Shutoff: 1
-2.03242% complete. Max time remaining: 2 hrs, 49 mins, 22 secs. Auto Shutoff: 0.974926
-3.04863% complete. Max time remaining: 2 hrs, 47 mins, 40 secs. Auto Shutoff: 0.972911
-4.06483% complete. Max time remaining: 2 hrs, 46 mins, 1 secs. Auto Shutoff: 0.0160098
-5.07108% complete. Max time remaining: 2 hrs, 44 mins, 17 secs. Auto Shutoff: 0.0154351
+Starting 100543 total iterations
+0.0477408% complete. Max time remaining: 40 mins, 20 secs. Auto Shutoff: 1
